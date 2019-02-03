@@ -11,5 +11,6 @@ Simple SUDOKU Solver via images
 ![demo](/demo/demo.gif "demo")
 # How to run
 Just put all file in the same folder and run with Python IDE or command prompt  
-`python Main_SUDOKU.py # | Main_SUDOKU_OpenCV3.py if you're using OpenCV 3.x`  
+`python Main_SUDOKU.py` or  
+`python Main_SUDOKU_OpenCV3.py` if you're using OpenCV 3.x    
 Have fun!

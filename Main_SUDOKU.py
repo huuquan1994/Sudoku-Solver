@@ -1,3 +1,6 @@
+## Simple SUDOKU Solver for OpenCV 2.4.13
+## Visit this link for the version with OpenCV 3.x: https://github.com/huuquan1994/Sudoku-Solver/blob/master/Main_SUDOKU_OpenCV3.py
+
 import cv2
 import numpy as np
 import joblib
@@ -8,6 +11,8 @@ ratio2 = 3
 kernel_size = 3
 lowThreshold = 30
 count = 1
+# Load the pre-trained SVM model.
+# Please note that you will need to train a new classifier if you run this code under Python 3.x
 clf = joblib.load('classifier.pkl')
 
 is_print = True

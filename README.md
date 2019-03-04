@@ -1,5 +1,6 @@
 # Sudoku Solver
 Simple SUDOKU Solver via images
+Check out my blog: [https://caphuuquan.com/sudoku-solver-part-1-grid-detection/](https://caphuuquan.com/sudoku-solver-part-1-grid-detection/)
 
 # Describe file list
 1. "classifier.pkl" - Trained SVM model. Used to recognize number from SUDOKU grid
